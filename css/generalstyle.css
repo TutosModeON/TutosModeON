@@ -1,0 +1,268 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulosbloque {
+    font: bold 23px "titillium web", sans-serif;
+    background: black;
+    margin: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 13px;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+    padding: -2; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 0px 2px;
+    color: white;
+    
+}
+
+header, section, footer, aside, nav, {
+display: block;
+}
+
+body{
+    /*text-align: center;*/
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+#container {
+    width: 960px;
+    margin: 16px auto;
+    text-align: left;
+}
+
+#imginicio {
+    width: 960px;
+}
+
+#menu {
+    background: transparent;
+    padding: 5px;
+    text-align: center;
+    text-decoration:none;
+} 
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 3px;
+    font: bold 17px 'Titillium Web', sans-serif;
+    box-shadow: #c1c1c1 0px 2px;
+    color: black;
+    background: white;
+    border-radius: 3px;
+    transition: ease-in-out 0.2s;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+    
+}
+
+#menu li:hover {
+    transform: scale(1.05, 1.05);
+    background: white;
+    box-shadow: #848484 0px 3px;
+    
+}
+
+#bloque {
+    float: right;
+    width: 630px;
+    height: 810px;
+    margin: 10px;
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#columnaizq {
+    float: left;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+#juegospc li{
+    display: inline-block;
+    list-style: none;
+    padding: 3px;
+    /*padding-bottom: 25px;*/
+    background: black;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding-bottom: 0px;
+    transition: ease-in-out 0.2s;
+}
+
+a:hover {
+    color: black;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active{
+    color: black;
+}
+
+ul#lista li:nth-child(1) a {
+    color: #0073e3;
+    font: bold 19px "titillium web", sans-serif;
+}
+
+
+.letaside {
+    font: bold 20px "titillium web", sans-serif;
+    background: black;
+    margin: 7px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 13px;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+    padding: -2px; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 0px 2px;
+    color: white;
+}
+
+#titleradio {
+    font: bold 16px "titillium web", sans-serif;
+    color: white;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none; /* Codigo para hacer "no seleccionable" el texto*/
+}
+
+#radio {
+    position: fixed;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    z-index: 100;
+    bottom: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /*Transparencia en negro*/
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#letpie {
+    font: 15px "titillium web", sans-serif;
+    margin: 7px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 13px;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+    padding: -2px; 
+    color: white;
+    text-align: center;
+}
+
+.subtitlesdouble {
+    font: 13px "titillium web", sans-serif;
+    color:white;
+    float: top;
+    margin: -6px;
+    margin-top: -6px;
+    margin-bottom: -1px;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.subtitleonce {
+    font: 13px "titillium web", sans-serif;
+    color:white;
+    float: bottom;
+    margin: 0px;
+    padding-top: 2px;
+    padding-bottom: 5px;   
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+#juegospc li:hover{
+    transform: scale(0.98, 0.98);
+}
+
+#descargas li {
+    list-style: none;
+    padding: 3px;
+    background: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding-bottom: 0px;
+    transition: ease-in-out 0.2s;
+}
+
+.ndescargas{
+    font: 16px "titillium web", sans-serif;
+    color:white;
+    float: top;
+    margin: -6px;
+    margin-top: -6px;
+    margin-bottom: -1px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+#descargas li:hover{
+    transform: scale(0.98, 0.98);
+}
+
