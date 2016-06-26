@@ -32,6 +32,7 @@ body{
     /*text-align: center;*/
     background-repeat: no-repeat;
     background-position: 50% 0%;
+    background-attachment: fixed;
 }
 
 #container {
@@ -238,8 +239,8 @@ ul#lista li:nth-child(1) a {
     padding: 3px;
     background: black;
     margin-top: 10px;
-    margin-bottom: 5px;
-    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-left: 3px;
     border-radius: 5px;
     padding-bottom: 0px;
     transition: ease-in-out 0.2s;
