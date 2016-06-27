@@ -28,8 +28,7 @@ header, section, footer, aside, nav, {
 display: block;
 }
 
-body{
-    /*text-align: center;*/
+#inicio{
     background-repeat: no-repeat;
     background-position: 50% 0%;
     background-attachment: fixed;
@@ -84,7 +83,6 @@ body{
 #bloque {
     float: right;
     width: 630px;
-    height: 810px;
     margin: 10px;
     background: white;
     text-align: center;
@@ -185,21 +183,23 @@ ul#lista li:nth-child(1) a {
 
 #letpie {
     font: 15px "titillium web", sans-serif;
-    margin: 7px;
-    margin-left: -5px;
-    margin-right: -5px;
-    margin-bottom: 13px;
+    
     -webkit-user-select: none;
      -khtml-user-select: none;
      -moz-user-select: none;
      -o-user-select: none;
      -ms-user-select: none;
      user-select: none;
-    padding: -2px; 
+    
     color: white;
-    text-align: center;
 }
 
+#foot {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+width: 100%;
+    position: absolute;
+}
 .subtitlesdouble {
     font: 13px "titillium web", sans-serif;
     color:white;
