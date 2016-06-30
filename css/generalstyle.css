@@ -37,7 +37,7 @@ display: block;
 #container {
     width: 960px;
     margin: 16px auto;
-    text-align: left;
+    text-align: center;
 }
 
 #imginicio {
@@ -60,7 +60,6 @@ display: block;
     margin: 3px;
     font: bold 17px 'Titillium Web', sans-serif;
     box-shadow: #c1c1c1 0px 2px;
-    color: black;
     background: white;
     border-radius: 3px;
     transition: ease-in-out 0.2s;
