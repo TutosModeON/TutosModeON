@@ -16,7 +16,7 @@ display: block;
 #container {
     width: 1250px;
     margin: 16px auto;
-    margin-top: 0px;
+    margin-top: 3%;
     text-align: left;
     
     /*background-color: white;*/
@@ -25,10 +25,12 @@ display: block;
 #menu {
     background: white;
     padding:
-    text-align: left;
+    text-align: center;
     text-decoration:none;
     width: 1250px;
-    margin-top: 5px;
+    top: 0px;
+    position: fixed;
+    border-bottom:  5px solid black;
 }
 
 
@@ -51,7 +53,7 @@ display: block;
      -moz-user-select: none;
      -o-user-select: none;
      -ms-user-select: none;
-     user-select: none;  
+     user-select: none; 
 }
 
 a:hover {
