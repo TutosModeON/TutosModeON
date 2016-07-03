@@ -1,0 +1,4 @@
+ul#lista li:nth-child(3) a {
+    color: #0073e3;
+    font: bold 19px "titillium web", sans-serif;
+}

@@ -133,12 +133,6 @@ a:active{
     color: black;
 }
 
-ul#lista li:nth-child(1) a {
-    color: #0073e3;
-    font: bold 19px "titillium web", sans-serif;
-}
-
-
 .letaside {
     font: bold 20px "titillium web", sans-serif;
     background: black;
@@ -266,3 +260,63 @@ ul#lista li:nth-child(1) a {
     transform: scale(0.98, 0.98);
 }
 
+.subtitlesdoublejpc {
+    font: 14px "titillium web", sans-serif;
+    color:white;
+    float: bottom;
+    margin: -6px;
+    margin-top: -5px;
+    margin-bottom: -1px;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.subtitleoncejpc {
+    font: 16px "titillium web", sans-serif;
+    color:white;
+    float: bottom;
+    margin: 0px;
+    padding-top: 2px;
+    padding-bottom: 5px;   
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.serv {
+    font: 12px "titillium web", sans-serif;
+    color:white;
+    float: bottom;
+    padding: 0px;
+    margin-top: -10px;
+    padding-bottom: 5px;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.imgserv {
+    padding: 3px;
+    margin: 0px;
+    margin-right: -5px;
+    margin-top: 5px;
+    padding-left: 3px;
+    padding-right: 0px;
+    margin-bottom: -10px;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
