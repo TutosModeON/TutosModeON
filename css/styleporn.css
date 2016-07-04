@@ -74,6 +74,24 @@ a:active{
     color: #fc2cb3;
 }
 
+.ver:hover {
+    color: white;
+}
+
+.ver:link {
+    color: white;
+    text-decoration: none;
+}
+
+.ver:visited {
+    color: white;
+}
+
+.ver:active{
+    color: #fc2cb3;
+}
+
+
 #bloque {
     float: left;
     margin-top: 5px;
