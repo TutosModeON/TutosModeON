@@ -2,9 +2,11 @@
 <html lang="es">
 <head>
     <meta chatrset="iso-8859-1"/>
-    <title>Juegos PC - TutosModeON</title>
-    <link rel="stylesheet" type="text/css" href="css/generalstyle.css">
-    <link rel="stylesheet" type="text/css" href="css/gsmenujuegospc.css">
+    <title>Juegos Android - TutosModeON</title>
+    <link rel="stylesheet" href="css/generalstyle.css">
+    <link rel="stylesheet" href="css/gsmenujuegosandroid.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet">
     <script type="text/javascript" src="js/prog.js"></script>
     <meta property="fb:admins" content="100000573432399"/>
@@ -34,15 +36,18 @@
     
     <section id="bloque">
        <div id="juegospc">
-         <p class="titulosbloque">Ultimos Juegos PC Subidos</p> 
-          <ul class="lists">
-              <li><p class="subtitlesdoublejpc">Need for Speed</p><p class="subtitlesdoublejpc">Underground 2</p><img src="assets/img/pagejuegospc/nfsu2.png"><p class="serv">Descarga:<img class="imgserv" src="assets/img/serv/mega.png"></p></li>
-              <li><p class="subtitleoncejpc">Call of Duty 1</p><img src="assets/img/pagejuegospc/cod1.png"><p class="serv">Descarga:<img class="imgserv" src="assets/img/serv/4shared.png"></p></li>
-              <li><p class="subtitleoncejpc">Project 64</p><img src="assets/img/pagejuegospc/N64.png"><p class="serv">Descarga:<img class="imgserv" src="assets/img/serv/mediafire.png"></p></li>
-              <li><p class="subtitlesdoublejpc">Crash Bandicoot 3:</p><p class="subtitlesdoublejpc">WARPED</p><img src="assets/img/pagejuegospc/cb3.png"><p class="serv">Descarga:<img class="imgserv" src="assets/img/serv/mediafire.png"></p></li>
-              <li><p class="subtitlesdoublejpc">The Binding of Isaac:</p><p class="subtitlesdoublejpc">Wrath the Lamb</p><img src="assets/img/pagejuegospc/tboiwtl.png"><p class="serv">Descarga:<img class="imgserv" src="assets/img/serv/mediafire.png"></p></li>
-              <li><p class="subtitleoncejpc">Minecraft</p><img src="assets/img/pagejuegospc/mc.png"><p class="serv">Descarga:<img class="imgserv" src="assets/img/serv/4shared.png"></p></li>
-          </ul>
+         <p class="titulosbloque">Monument Valley</p>        
+              <img id="cover" src="assets/img/coverindiv/monumentvalley.jpg">
+          <p class="titulosbloque">Links de Descarga</p>             
+              <img  src="assets/img/coverindiv/descarga/apk.png">
+              <img  src="assets/img/coverindiv/descarga/obb.png">
+          <p class="titulosbloque">Screenshots</p>
+              <div class="slides">
+                  <img src="assets/img/coverindiv/galeria/1.png">
+                  <img src="assets/img/coverindiv/galeria/2.png">
+                  <img src="assets/img/coverindiv/galeria/3.png">
+                  <img src="assets/img/coverindiv/galeria/4.png">
+              </div>
        </div>
        <div>
            <p class="titulosbloque">Comentarios</p>
@@ -95,7 +100,7 @@
     </div>
     <div id="visitas">
        <p class="letaside">Contador de Visitas</p>
-        <embed src="http://plugin.control.objectembed.info/FlowPlayer.swf?id=1419459_0&amp;ln=es" type="application/x-shockwave-flash" allowscriptaccess="always" wmode="transparent" width="175" height="200" />
+        <embed src="https://plugin.control.objectembed.info/FlowPlayer.swf?id=1419459_0&amp;ln=es" type="application/x-shockwave-flash" allowscriptaccess="always" wmode="transparent" width="175" height="200" />
     </div>
     </aside>
     
@@ -103,5 +108,22 @@
     <footer id="foot">
         <p id="letpie">Desarrollado por Bryan C. Manjarres - Derechos Reservados &copy;TutosModeON 2013-2016</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+    <script>
+        $(function(){
+            $(".slides").slidesjs({  
+                play: {
+                    active: true,
+                    effect: "slide",
+                    interval: 3000,
+                    auto: true,
+                    swap: true,
+                    pauseOnHover: false,
+                    restartDelay: 2500
+                }
+            });
+        });
+    </script>
     </body>
 </html>

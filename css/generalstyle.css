@@ -38,7 +38,6 @@ display: block;
 #container {
     width: 960px;
     margin: 16px auto;
-    text-align: center;
     margin-top: 0px;
 }
 
@@ -263,6 +262,7 @@ a:active{
 .subtitlesdoublejpc {
     font: 14px "titillium web", sans-serif;
     color:white;
+    text-align: center;
     float: bottom;
     margin: -6px;
     margin-top: -5px;
@@ -277,6 +277,7 @@ a:active{
 
 .subtitleoncejpc {
     font: 16px "titillium web", sans-serif;
+    text-align: center;
     color:white;
     float: bottom;
     margin: 0px;
@@ -293,6 +294,7 @@ a:active{
 .serv {
     font: 12px "titillium web", sans-serif;
     color:white;
+    text-align: center;
     float: bottom;
     padding: 0px;
     margin-top: -10px;
@@ -306,6 +308,7 @@ a:active{
 }
 
 .imgserv {
+    text-align: center;
     padding: 3px;
     margin: 0px;
     margin-right: -5px;
@@ -319,4 +322,52 @@ a:active{
      -o-user-select: none;
      -ms-user-select: none;
      user-select: none;
+}
+
+.lists{
+    text-align: left;
+    padding-left: 22px;
+}
+
+#cover {
+    width: 90%;
+    border: 4px solid black;
+}
+
+.slides {
+    width: 85%;
+    margin: 5px auto;
+}
+
+.slides img {
+    width: 100%;
+}
+
+.slidesjs-pagination{
+    background: black;
+    list-style: none;
+    overflow: hidden; 
+}
+
+.slidesjs-pagination li {
+    float: left;
+}
+
+.slidesjs-pagination li a {
+    font: 15px "titillium web", sans-serif;
+    display: block;
+    padding: 1px 9px;
+    color: white;
+    background: black;
+    
+}
+
+.slidesjs-pagination li a:hover{
+    background: white;
+    color: black;
+}
+
+.slides .active {
+    background: white;
+    color: black;
 }
