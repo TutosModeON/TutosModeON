@@ -15,7 +15,7 @@
 <body id="inicio" background="assets/img/back.png">
   <div id="radio">
             <p id="titleradio">RADIO 24/7 - [www.iloveradio.de]</p>         
-      <audio id="volumen" src="http://stream04.iloveradio.de/iloveradio1.mp3" preload="" controls="" autoplay="true"><!--Aun necesito investigar como hacer que quede con bajo volumen-->
+      <audio id="audio" src="http://stream04.iloveradio.de/iloveradio1.mp3" preload="true" controls="" autoplay="true"><!--Aun necesito investigar como hacer que quede con bajo volumen-->
         </audio>
     </div>
    <div id="container">
@@ -124,6 +124,10 @@
                 }
             });
         });
+    </script>
+    <script>
+        var aud = document.getElementById("audio");
+        aud.volume = 0.08;
     </script>
     </body>
 </html>
