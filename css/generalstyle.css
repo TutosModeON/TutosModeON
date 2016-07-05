@@ -112,7 +112,7 @@ display: block;
     margin-left: 5px;
     border-radius: 5px;
     padding-bottom: 0px;
-    transition: ease-in-out 0.2s;
+    
 }
 
 a:hover {
@@ -222,7 +222,8 @@ a:active{
      user-select: none;
 }
 
-#juegospc li:hover{
+#juegospc li img:hover{
+    transition: ease-in-out 0.2s;
     transform: scale(0.98, 0.98);
 }
 
@@ -235,7 +236,7 @@ a:active{
     margin-left: 3px;
     border-radius: 5px;
     padding-bottom: 0px;
-    transition: ease-in-out 0.2s;
+    
 }
 
 .ndescargas{
@@ -255,7 +256,8 @@ a:active{
      user-select: none;
 }
 
-#descargas li:hover{
+#descargas li img:hover{
+    transition: ease-in-out 0.2s;
     transform: scale(0.98, 0.98);
 }
 
@@ -337,6 +339,7 @@ a:active{
 .slides {
     width: 85%;
     margin: 5px auto;
+    margin-bottom: 20px;
 }
 
 .slides img {
@@ -350,7 +353,7 @@ a:active{
 }
 
 .slidesjs-pagination li {
-    float: left;
+    float: center;
 }
 
 .slidesjs-pagination li a {
@@ -368,6 +371,24 @@ a:active{
 }
 
 .slides .active {
+    background: white;
+    color: black;
+}
+
+.slidesindex {
+    width: 91%;
+    margin: 5px auto;
+    margin-bottom: 10px;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-top: 4px solid black;
+}
+
+.slidesindex img {
+    width: 100%;
+}
+
+.slidesindex .active {
     background: white;
     color: black;
 }

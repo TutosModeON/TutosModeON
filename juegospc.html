@@ -5,15 +5,14 @@
     <title>Juegos PC - TutosModeON</title>
     <link rel="stylesheet" type="text/css" href="css/generalstyle.css">
     <link rel="stylesheet" type="text/css" href="css/gsmenujuegospc.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet">
-    <script type="text/javascript" src="js/prog.js"></script>
-    <meta property="fb:admins" content="100000573432399"/>
 </head>
 
 <body id="inicio" background="assets/img/back.png">
   <div id="radio">
             <p id="titleradio">RADIO 24/7 - [www.iloveradio.de]</p>         
-      <audio id="volumen" src="http://stream04.iloveradio.de/iloveradio1.mp3" preload="" controls="" autoplay="true"><!--Aun necesito investigar como hacer que quede con bajo volumen-->
+      <audio id="audio" src="http://stream04.iloveradio.de/iloveradio1.mp3" preload="true" controls="" autoplay="true">
         </audio>
     </div>
    <div id="container">
@@ -26,7 +25,7 @@
             <li><a href="juegospc.html">Juegos para PC</a></li>
             <li><a href="programaspc.html">Programas para PC</a></li>
             <li><a href="juegosandroid.html">Juegos para Android</a></li>
-            <li><a href="codrcontools.html">Call of Duty RconTools</a></li>
+            <li><a href="codrcontools.html">Call of Duty 1.1 Mods</a></li>
             <li><a href="adult4.html">Adultos / +18</a></li>
             <i></i>
         </ul>
@@ -103,5 +102,12 @@
     <footer id="foot">
         <p id="letpie">Desarrollado por Bryan C. Manjarres - Derechos Reservados &copy;TutosModeON 2013-2016</p>
     </footer>
+    <script>
+        var aud = document.getElementById("audio");
+        aud.volume = 0.08;
+    </script>
+    <script>
+        document.oncontextmenu = function(){return false;}
+    </script>
     </body>
 </html>
