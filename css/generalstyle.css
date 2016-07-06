@@ -222,7 +222,7 @@ a:active{
      user-select: none;
 }
 
-#juegospc li img:hover{
+.img:hover{
     transition: ease-in-out 0.2s;
     transform: scale(0.98, 0.98);
 }
@@ -340,6 +340,9 @@ a:active{
     width: 85%;
     margin: 5px auto;
     margin-bottom: 20px;
+    border-top: 3px solid black; 
+    border-right: 3px solid black;
+    border-left: 3px solid black;
 }
 
 .slides img {
@@ -371,24 +374,6 @@ a:active{
 }
 
 .slides .active {
-    background: white;
-    color: black;
-}
-
-.slidesindex {
-    width: 91%;
-    margin: 5px auto;
-    margin-bottom: 10px;
-    border-left: 4px solid black;
-    border-right: 4px solid black;
-    border-top: 4px solid black;
-}
-
-.slidesindex img {
-    width: 100%;
-}
-
-.slidesindex .active {
     background: white;
     color: black;
 }
