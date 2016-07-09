@@ -352,7 +352,13 @@ a:active{
 .slidesjs-pagination{
     background: black;
     list-style: none;
-    overflow: hidden; 
+    overflow: hidden;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
 }
 
 .slidesjs-pagination li {
@@ -376,4 +382,23 @@ a:active{
 .slides .active {
     background: white;
     color: black;
+}
+
+.contiene {
+    padding-left: 35px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-right: 35px;
+}
+
+.contiene p {
+    font: 15px "titillium web", sans-serif;
+    text-align: left;
+    margin-top: -5px;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
 }
