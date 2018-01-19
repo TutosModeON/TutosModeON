@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta chatrset="iso-8859-1"/>
+    <title>Knives Out - TutosModeON</title>
+    <link rel="stylesheet" href="../css/generalstyle.css">
+    <link rel="stylesheet" href="../css/gsmenujuegospc.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet">
+    <link rel="icon" href="../assets/img/ico.ico">
+</head>
+
+<body id="inicio" background="../assets/img/back.png">
+  <div id="radio">
+            <p id="titleradio">RADIO 24/7 - [www.iloveradio.de]</p>         
+      <audio id="audio" src="http://stream04.iloveradio.de/iloveradio1.mp3" preload="true" controls="" autoplay="true">
+        </audio>
+    </div>
+   <div id="container">
+       <header><a href="../index.html"><img id="imginicio" src="../assets/img/header.png"></a></header>
+    
+       
+    <nav id="menu">
+        <ul id="lista">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../juegos-pc.html">Juegos para PC</a></li>
+            <li><a href="../programas-pc.html">Programas para PC</a></li>
+            <li><a href="../juegos-android.html">Juegos para Android</a></li>
+            <li><a href="../cod-rcontools.html">Call of Duty 1.1 Mods</a></li>
+            <li><a href="../mas-tutoriales.html">Más!</a></li>
+        </ul>
+    </nav>  
+    <section id="bloque">
+       <div id="juegospc">
+         <p class="titulosbloque">Knives Out</p>        
+              <img id="cover" src="../assets/img/coverindiv/KnivesOut/ko.png">        
+          <p class="titulosbloque">Link de Descarga</p>
+           <a href="http://rapidtory.com/7svJ" target="_blank"><img  src="../assets/img/coverindiv/KnivesOut/EXE.png"></a>
+          <p class="titulosbloque">Screenshots</p>
+              <div class="slides">
+                  <img src="../assets/img/coverindiv/KnivesOut/1.png">
+                  <img src="../assets/img/coverindiv/KnivesOut/2.png">
+                  <img src="../assets/img/coverindiv/KnivesOut/3.png">
+                  <img src="../assets/img/coverindiv/KnivesOut/4.png">
+                  <img src="../assets/img/coverindiv/KnivesOut/5.png">
+              </div>
+       </div> 
+    </section>
+    <aside id="columnaizq">
+       <div>
+        <p class="letaside">Pagina en Facebook</p>
+        <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.3";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+            <div class="fb-page" data-href="https://www.facebook.com/TutosModeON" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/TutosModeON" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/TutosModeON"></a></blockquote></div>
+    </div> 
+    <div>
+       <p class="letaside">Canal de Tutoriales</p>
+        <script src="https://apis.google.com/js/platform.js" type="text/javascript">
+        </script>
+    <div class="g-ytsubscribe" data-channel="TutosModeON" data-layout="full" data-count="default"></div>
+      <div>
+       <p class="letaside">Canal de Gameplays</p>
+        <script src="https://apis.google.com/js/platform.js" type="text/javascript">
+        </script>
+    <div class="g-ytsubscribe" data-channel="PotterInHD" data-layout="full" data-count="default">
+    </div>
+        </div>
+    </div>
+    <div id="descargas">
+        <p class="letaside">Mas Descargados</p>
+        <ul>
+            <li><p class="ndescargas">Pack [4 Metal Slug]</p><a href="../juegos-android/metal-slug-pack.html"><img src="../assets/img/masdescargadasand.png"></a><p class="ndescargas">+100.000 Descargas</p></li>
+            <li><p class="ndescargas">Emulador N64 [Project 64]</p><a href="n64.html"><img src="../assets/img/masdescargadasn64.png"></a><p class="ndescargas">+30.000 Descargas</p></li>   
+          </ul>
+    </div>
+    <div id="visitas">
+       <p class="letaside">Contador de Visitas</p>
+        <embed src="https://plugin.control.objectembed.info/FlowPlayer.swf?id=1419459_0&amp;ln=es" type="application/x-shockwave-flash" allowscriptaccess="always" wmode="transparent" width="175" height="200" />
+    </div>
+    </aside>
+    
+    </div>
+    <footer id="foot">
+        <p id="letpie">Web Desarrollada por Bryan C. Manjarres - Derechos Reservados &copy;TutosModeON 2013-2017</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="../js/jquery.slides.js"></script>
+    <script>
+        $(function(){
+            $(".slides").slidesjs({  
+                play: {
+                    active: true,
+                    effect: "slide",
+                    interval: 3000,
+                    auto: true,
+                    swap: true,
+                    pauseOnHover: false,
+                    restartDelay: 2500
+                }
+            });
+        });
+    </script>
+    <script>
+        var aud = document.getElementById("audio");
+        aud.volume = 0.05;
+    </script>
+    <script>
+        document.oncontextmenu = function(){return false;}
+    </script>
+    </body>
+</html>
