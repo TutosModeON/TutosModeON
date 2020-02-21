@@ -1,0 +1,66 @@
+.hoverEffect {
+  transition: all 500ms;
+}
+
+.hoverEffect:hover {
+  filter: brightness(30%);
+-webkit-filter: brightness(30%);
+-moz-filter: brightness(30%);
+}
+
+.social-bar{
+	position: fixed;
+	left: 0;
+	top: 30%;
+	font-size: 1.3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	z-index: 100;
+
+}
+
+.icon{
+	display: inline-block;
+	color: white;
+	padding: 10px 15px;
+	display: flex;
+	transition: all .5s;
+
+}
+
+.icon-facebook{ 
+	background: #4267B2;  
+}
+.icon-youtube{ 
+	background: #FF0000;
+}
+
+.icon-twitter{
+	background: #1DA1F2; 
+}
+
+.icon-paypal{
+	background: #e0e0e0; 
+	color: #222;
+}
+
+.icon:hover{
+	color: white;
+	background: #222;
+	padding: 10px 30px;
+	box-shadow: 0 0 .5rem rgba(0,0,0,.4);
+}
+
+.social-bar a:link{
+	text-decoration: none;
+}
+
+.social-bar-mobile{
+	font-size: 1.3rem;
+
+}
+
+.social-bar-mobile a:link{
+	text-decoration: none;
+}
