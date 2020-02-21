@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?101cfm');
-  src:  url('fonts/icomoon.eot?101cfm#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?101cfm') format('truetype'),
-    url('fonts/icomoon.woff?101cfm') format('woff'),
-    url('fonts/icomoon.svg?101cfm#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?y96qxu');
+  src:  url('fonts/icomoon.eot?y96qxu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?y96qxu') format('truetype'),
+    url('fonts/icomoon.woff?y96qxu') format('woff'),
+    url('fonts/icomoon.svg?y96qxu#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,9 +25,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-discord:before {
+.icon-mediafire:before {
   content: "\e900";
-  color: #7289da;
+  color: #1299f3;
+}
+.icon-mega:before {
+  content: "\e901";
+  color: #d9272e;
 }
 .icon-facebook:before {
   content: "\ea90";
